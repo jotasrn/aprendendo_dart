@@ -1,6 +1,7 @@
-//conta de 1 a 10
 void main() {
-  for(int i = 1; i <= 10; i++){
-    print('Contador: $i'); // exibe cada número no console.
+  // Inicia um laço de repetição (for) que vai de 1 até 10 (inclusive)
+  for (int i = 1; i <= 10; i++) {
+    // Exibe o valor de 'i' no console a cada iteração
+    print('Contador: $i'); // Imprime "Contador: x", onde x é o valor atual de i
   }
 }
